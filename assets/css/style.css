@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #303030;
+  color: white;
+  text-align: center;
+}
+.header {
+  grid-area: header;
+  background-color: darkviolet;
+}
+.menu {
+  grid-area: menu;
+  background-color: darkviolet;
+}
+.main {
+  grid-area: main;
+  background-color: darkviolet;
+}
+.footer {
+  grid-area: footer;
+  background-color: darkviolet;
+}
+.grid-container {
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+   "header header header"
+   "menu main main"
+   "footer footer footer";
+  gap: 10px;
+}
