@@ -1,4 +1,7 @@
 Practica Grid
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white)
+
 ### LAYOUT BASICO
 Este es un layout basico usando  las propiedades de GRID:
 - grid-area - display - grid-template-areas - gap
